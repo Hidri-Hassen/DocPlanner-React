@@ -1,0 +1,50 @@
+
+.box{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3.75rem 100px 2.5rem; 
+}
+
+
+.box-green{
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    position: relative;
+    width: 460px;
+    background: #00ccb1;
+    border-radius: 10px;
+    padding: 10px 10px ;
+    overflow: hidden;
+}
+.box-blue{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    height: 450px;
+    width: 460px;
+    background: #3d83df;
+    border-radius: 10px;
+    padding: 10px 10px ;
+    overflow: hidden
+
+}
+.laptop1{
+    display: flex;
+   position: absolute;
+    margin-left: 40%;
+    margin-top: -2.3em;
+    bottom: -15px;
+    width: 440px; 
+    height: 248px;
+}
+.laptop2{
+    display: flex;
+    position: absolute;
+    padding-top: 20px;
+    margin-left: 40%;
+    margin-top: -2.3em;
+    bottom: -15px;
+    width: 440px; 
+    height: 248px;
+}

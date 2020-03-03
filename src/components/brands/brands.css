@@ -1,0 +1,71 @@
+#text{
+    width: 420px; 
+}
+h1 .brands{
+    display: flex;
+    
+    font-size: 2.125rem;
+    color: #00b39b;
+    margin: 1em 0;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: .3px;
+}
+li .brands-logos {
+    display: flex;
+    font-size: 1rem;
+    display: inline-block;
+    width: 168px;
+    padding: 5px 0;
+    font-weight: 400;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #747474;
+    /*text-align: -webkit-match-parent;*/
+}
+.brands-logos a svg {
+    display: flex;
+    height: 20px;
+    width: auto;
+    font-size: 1rem;
+    max-width: 100%;
+    padding-left: 10px;
+    fill: hsla(0,0%,67%,.7);
+   
+}
+#svg1:hover {
+    display: flex;
+    fill: #00b39b;
+
+}
+#svg2:hover {
+    display: flex;
+    fill: #00b39b;
+}
+#svg3:hover {
+    display: flex;
+    fill: #00b39b;
+}
+#svg4:hover {
+    display: flex;
+    fill: #00b39b;
+}
+#svg5:hover {
+    display: flex;
+    fill: #00b39b;
+}
+
+.brands{
+    display: flex;
+    margin-left: 184px;
+    margin-right: 184px;
+
+
+}
+.brands-logos{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    width: fit-content;
+    font-size: 1rem;
+
+}

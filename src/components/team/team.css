@@ -1,0 +1,18 @@
+.team{
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin-left: 400px;
+    margin-right: 400px;
+}
+#p-team{
+    display: block;
+    width: 530px;
+    justify-content: center;
+    
+}
+#h-team{
+    margin-bottom: 10px;
+    width: 500px;
+    justify-content: center;
+}
